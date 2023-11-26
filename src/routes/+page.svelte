@@ -30,7 +30,9 @@
                 default:
                     break;
             }
+        });
 
+        kurariList.subscribe((v) => {
             //scroll to bottom
             const container = document.querySelector("#kurari-container");
             if (container) {
